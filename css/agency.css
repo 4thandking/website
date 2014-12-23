@@ -682,8 +682,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #323232;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -894,4 +893,13 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+
+/* Custtom CSS */
+
+/* Set a size for our map container, the Google Map will take up 100% of this container */
+#map {
+  /*width: 750px;*/
+  height: 200px;
 }
