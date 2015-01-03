@@ -900,6 +900,13 @@ body {
 
 /* Set a size for our map container, the Google Map will take up 100% of this container */
 #map {
-  /*width: 750px;*/
   height: 200px;
+}
+
+#contact {
+  padding-bottom: 0;
+}
+
+#email {
+  margin-bottom: 30px;
 }

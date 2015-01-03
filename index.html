@@ -11,7 +11,7 @@
 
     <title>4th & King</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
@@ -42,7 +42,7 @@
       var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 12,
-
+        scrollwheel: false,
         disableDefaultUI: true,
 
         // The latitude and longitude to center the map (always required)
@@ -125,6 +125,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -213,31 +214,32 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted"><a href="mailto:hello@4thandking.com">hello@4thandking.com</a></h3>
+                    <h3 class="section-subheading text-muted" id="email"><a href="mailto:hello@4thandking.com">hello@4thandking.com</a></h3>
                 </div>
             </div>
+
+
         </div>
+
+          <div class="container-fluid" id="map"></div>
+
       </section>
 
-            <div class="row">
-                <div class="span8" id="map">
 
-                </div>
-            </div>
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; 2014 4th & King, LLC</span>
+                    <span class="copyright">Copyright &copy; 2014, 4th & King, LLC</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li> -->
+                        <li><a href="https://www.facebook.com/fourthandking"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/company/4th-&-king"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
